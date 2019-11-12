@@ -29,5 +29,4 @@ void code_1(int question, double &a, double &b, char(&dd1)[110])
 
 	ofstream out(dd1, ios_base::app);
 	out << second_2 << "\t" << "1" << "\t" << question << endl;
-	//out << second_2 << "     1     " << question << endl;
 }

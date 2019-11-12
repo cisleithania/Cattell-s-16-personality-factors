@@ -4310,6 +4310,7 @@ private: System::Windows::Forms::Label^  label752;
 			this->label1->Size = System::Drawing::Size(494, 31);
 			this->label1->TabIndex = 0;
 			this->label1->Text = L"Здравствуйте, сейчас мы начнем тест";
+			this->label1->Click += gcnew System::EventHandler(this, &MyForm::label1_Click);
 			// 
 			// tabControl1
 			// 
@@ -23076,11 +23077,10 @@ private: System::Windows::Forms::Label^  label752;
 		}
 #pragma endregion
 	
-	int age_1 = 0; //индекс  от 1 до 10, пол и возраст
+	int age_1 = 0;
 
 	int start = GetTickCount();
 
-		// Таймер, выводящий время в формате "Минуты : Секунды", с нажатия кнопки "Старт"
 private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e) {
 
 	sec++;
@@ -23095,19 +23095,14 @@ private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e
 	if (min < 10) { Minute = Convert::ToString("0" + min); }
 	else { Second = Convert::ToString(min); };
 
-	// label3->Text = Minute + " : " + Second;      //Время в формате "Минуты : Секунды", с нажатия кнопки "Старт" на экране
-
 	if (sec == 1200) {
 		timer1->Stop();
 	}
 }
-		 // Таймер, выводящий количество секунд, прошедших с нажатия кнопки "Старт"
+
 private: System::Void timer2_Tick(System::Object^  sender, System::EventArgs^  e) {
 	sec1++;
 	Second1 = Convert::ToString(sec1);
-	//label4->Text = Second1;         //Вывод количества секунд, прошедших с нажатия кнопки "Старт" на экран
-
-	//if (sec1 == 1200)  tabControl1->SelectedTab = tabControl1->TabPages["TabPage63"];
 }
 
 private: System::Void comboBox1_SelectedIndexChanged(System::Object^  sender, System::EventArgs^  e) {
@@ -23123,7 +23118,6 @@ private: System::Void button2_Click(System::Object^  sender, System::EventArgs^ 
 
 	private: System::Void button5_Click(System::Object^  sender, System::EventArgs^  e) {
 
-		//int age_1 = 0;
 		if (comboBox1->SelectedIndex == 0)   age_1 = 1;
 		if (comboBox1->SelectedIndex == 1)   age_1 = 2;
 		if (comboBox1->SelectedIndex == 2)  age_1 = 3;
@@ -23181,29 +23175,6 @@ private: System::Void timer1_Tick_1(System::Object^  sender, System::EventArgs^ 
 }
 private: System::Void timer2_Tick_1(System::Object^  sender, System::EventArgs^  e) {
 }
-	// ПОСЛЕДНЯЯ СТРАНИЦА !!!
-	//cattel_all(age_1, array_2, array_3, array_start, array_end, dd2);
-	//cattel_time(array_start, array_end, dd3);
-	//getchar();
-	//exit(0);
-
-	//ДЛЯ ПРИМЕРА
-	//tabControl1->SelectedTab = tabControl1->TabPages["TabPage5"];
-	//int question = 1;
-	//int next_question = 2;
-	//int number = 2;
-	//array_1[0] = number;
-	//int factor = 0;
-	//array_2[0] = factor;
-	//int column = 0;
-	//int point = 0;
-	//array_3[0] = point;
-	//double start_time = 0.000;
-	//double end_time = 0.000;
-	//code_2(question, number, point, second, end_time, dd1);
-	//code_1(next_question, second, start_time, dd1);
-	//array_start[1] = start_time;
-	//array_end[0] = end_time;
 
 		 // question 1
 private: System::Void button13_Click(System::Object^  sender, System::EventArgs^  e) {
@@ -29592,6 +29563,8 @@ private: System::Void tabPage191_Click(System::Object^  sender, System::EventArg
 	exit(0);
 }
 private: System::Void label143_Click(System::Object^  sender, System::EventArgs^  e) {
+}
+private: System::Void label1_Click(System::Object^  sender, System::EventArgs^  e) {
 }
 };
 }

@@ -26,8 +26,5 @@ void code_2(int question, int number, int point, double &a, double &b, char(&dd1
 	int sec1 = nowlocal.tm_sec;
 
 	ofstream out(dd1, ios_base::app);
-	//out << second_2 << "     2     " << question << "     " << number << "     " << point << endl;
 	out << second_2 << "\t" << "2" << "\t" << question << "\t" << number << "\t" << point << endl;
-
-	//out << sec << "," << msec << "     2     " << table << "     " << number << "     " << correct_10 << endl;  - я не помню зачем эта строка 
 }

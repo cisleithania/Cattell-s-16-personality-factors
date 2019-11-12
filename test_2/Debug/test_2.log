@@ -1,9 +1,11 @@
-﻿  file.cpp
+﻿  Cattel_all.cpp
+Cattel_all.cpp(135): warning C4838: conversion from 'int' to 'const char' requires a narrowing conversion
+Cattel_all.cpp(135): warning C4305: 'initializing': truncation from 'int' to 'const char'
+Cattel_all.cpp(135): warning C4309: 'initializing': truncation of constant value
   test.cpp
-d:\c++\test\test_2\test_2\test_2\MyForm.h(23151): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\c++\test\test_2\test_2\test_2\MyForm.h(23145): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
   Generating Code...
-  .NETFramework,Version=v4.6.AssemblyAttributes.cpp
   func_button.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
   test_2.vcxproj -> D:\C++\test\test_2\test_2\Debug\test_2.exe
   test_2.vcxproj -> D:\C++\test\test_2\test_2\Debug\test_2.pdb (Partial PDB)
