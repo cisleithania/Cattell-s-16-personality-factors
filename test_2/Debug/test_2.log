@@ -1,10 +1,32 @@
-﻿  Cattel_all.cpp
-Cattel_all.cpp(135): warning C4838: conversion from 'int' to 'const char' requires a narrowing conversion
-Cattel_all.cpp(135): warning C4305: 'initializing': truncation from 'int' to 'const char'
-Cattel_all.cpp(135): warning C4309: 'initializing': truncation of constant value
+﻿  Arr.cpp
+  Cattel_all.cpp
+Cattel_all.cpp(66): warning C4838: conversion from 'int' to 'const char' requires a narrowing conversion
+Cattel_all.cpp(66): warning C4305: 'initializing': truncation from 'int' to 'const char'
+Cattel_all.cpp(66): warning C4309: 'initializing': truncation of constant value
+  Cattel_time.cpp
+  code_0.cpp
+code_0.cpp(23): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+  code_1.cpp
+code_1.cpp(27): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+  code_2.cpp
+code_2.cpp(25): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+  func_button.cpp
+  m_16_19.cpp
+  m_20_24.cpp
+  m_25_33.cpp
+  m_34_45.cpp
+  m_46_60.cpp
   test.cpp
 d:\c++\test\test_2\test_2\test_2\MyForm.h(23145): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+  w_16_19.cpp
+  w_20_24.cpp
+  w_25_33.cpp
+  w_34_45.cpp
+  w_46_55.cpp
   Generating Code...
   func_button.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
   test_2.vcxproj -> D:\C++\test\test_2\test_2\Debug\test_2.exe

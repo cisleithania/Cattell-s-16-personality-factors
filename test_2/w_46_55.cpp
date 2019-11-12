@@ -3,7 +3,7 @@ void w_46_55(int sum_arr[16], int sum_norm[16]) {
 	for (int i = 0; i < 16; i++)
 	{
 
-		// ôàêòîð A
+		// Ñ„Ð°ÐºÑ‚Ð¾Ñ€ A
 		if (i == 0) {
 			if ((sum_arr[i] == 0) || (sum_arr[i] == 1) || (sum_arr[i] == 2) || (sum_arr[i] == 3)
 				|| (sum_arr[i] == 4) || (sum_arr[i] == 5)) {sum_norm[i] = 1;}
@@ -17,7 +17,7 @@ void w_46_55(int sum_arr[16], int sum_norm[16]) {
 			else if ((sum_arr[i] == 17) || (sum_arr[i] == 18)) { sum_norm[i] = 9; }
 			else if ((sum_arr[i] == 19) || (sum_arr[i] == 20)) { sum_norm[i] = 10; }
 		}
-		// ôàêòîð B
+		// Ñ„Ð°ÐºÑ‚Ð¾Ñ€ B
 		if (i == 1) {
 			if ((sum_arr[i] == 0) || (sum_arr[i] == 1)) { sum_norm[i] = 1; }
 			else if (sum_arr[i] == 2) { sum_norm[i] = 2; }
@@ -30,7 +30,7 @@ void w_46_55(int sum_arr[16], int sum_norm[16]) {
 			else if ((sum_arr[i] == 9) || (sum_arr[i] == 10)) { sum_norm[i] = 9; }
 			else if ((sum_arr[i] == 11) || (sum_arr[i] == 12) || (sum_arr[i] == 13)) { sum_norm[i] = 10; }
 		}
-		// ôàêòîð C
+		// Ñ„Ð°ÐºÑ‚Ð¾Ñ€ C
 		if (i == 2) {
 			if ((sum_arr[i] == 0) || (sum_arr[i] == 1) || (sum_arr[i] == 2) || (sum_arr[i] == 3) || (sum_arr[i] == 4)) { sum_norm[i] = 1; }
 			else if ((sum_arr[i] == 5) || (sum_arr[i] == 6)) { sum_norm[i] = 2; }
@@ -46,7 +46,7 @@ void w_46_55(int sum_arr[16], int sum_norm[16]) {
 				sum_norm[i] = 10;
 			}
 		}
-		// ôàêòîð E
+		// Ñ„Ð°ÐºÑ‚Ð¾Ñ€ E
 		if (i == 3) {
 			if ((sum_arr[i] == 0) || (sum_arr[i] == 1) || (sum_arr[i] == 2)) { sum_norm[i] = 1; }
 			else if ((sum_arr[i] == 3) || (sum_arr[i] == 4)) { sum_norm[i] = 2; }
@@ -62,7 +62,7 @@ void w_46_55(int sum_arr[16], int sum_norm[16]) {
 				sum_norm[i] = 10;
 			}
 		}
-		// ôàêòîð F
+		// Ñ„Ð°ÐºÑ‚Ð¾Ñ€ F
 		if (i == 4) {
 			if (sum_arr[i] == 0){ sum_norm[i] = 1; }
 			else if ((sum_arr[i] == 1) || (sum_arr[i] == 2)) { sum_norm[i] = 2; }
@@ -77,7 +77,7 @@ void w_46_55(int sum_arr[16], int sum_norm[16]) {
 				|| (sum_arr[i] == 22) || (sum_arr[i] == 23)|| (sum_arr[i] == 24) || (sum_arr[i] == 25) 
 				|| (sum_arr[i] == 26)) {sum_norm[i] = 10;}
 		}
-		// ôàêòîð G
+		// Ñ„Ð°ÐºÑ‚Ð¾Ñ€ G
 		if (i == 5) {
 			if ((sum_arr[i] == 0) || (sum_arr[i] == 1) || (sum_arr[i] == 2) || (sum_arr[i] == 3) || (sum_arr[i] == 4)
 				|| (sum_arr[i] == 5) || (sum_arr[i] == 6) || (sum_arr[i] == 7) || (sum_arr[i] == 8) || (sum_arr[i] == 9)) 
@@ -92,7 +92,7 @@ void w_46_55(int sum_arr[16], int sum_norm[16]) {
 			else if (sum_arr[i] == 19) { sum_norm[i] = 9; }
 			else if (sum_arr[i] == 20) { sum_norm[i] = 10; }
 		}
-		// ôàêòîð H
+		// Ñ„Ð°ÐºÑ‚Ð¾Ñ€ H
 		if (i == 6) {
 			if (sum_arr[i] == 0) { sum_norm[i] = 1; }
 			else if ((sum_arr[i] == 1) || (sum_arr[i] == 2)) { sum_norm[i] = 2; }
@@ -105,7 +105,7 @@ void w_46_55(int sum_arr[16], int sum_norm[16]) {
 			else if ((sum_arr[i] == 18) || (sum_arr[i] == 19) || (sum_arr[i] == 20) || (sum_arr[i] == 21) || (sum_arr[i] == 22)) { sum_norm[i] = 9; }
 			else if ((sum_arr[i] == 23) || (sum_arr[i] == 24) || (sum_arr[i] == 25) || (sum_arr[i] == 26)) { sum_norm[i] = 10; }
 		}
-		// ôàêòîð I
+		// Ñ„Ð°ÐºÑ‚Ð¾Ñ€ I
 		if (i == 7) {
 			if ((sum_arr[i] == 0) || (sum_arr[i] == 1) || (sum_arr[i] == 2) || (sum_arr[i] == 3)
 				|| (sum_arr[i] == 4) || (sum_arr[i] == 5) || (sum_arr[i] == 6)) {sum_norm[i] = 1;}
@@ -119,7 +119,7 @@ void w_46_55(int sum_arr[16], int sum_norm[16]) {
 			else if (sum_arr[i] == 19) { sum_norm[i] = 9; }
 			else if (sum_arr[i] == 20) { sum_norm[i] = 10; }
 		}
-		// ôàêòîð L
+		// Ñ„Ð°ÐºÑ‚Ð¾Ñ€ L
 		if (i == 8) {
 			if ((sum_arr[i] == 0) || (sum_arr[i] == 1) || (sum_arr[i] == 2) || (sum_arr[i] == 3)
 				|| (sum_arr[i] == 4)) {sum_norm[i] = 1;}
@@ -133,7 +133,7 @@ void w_46_55(int sum_arr[16], int sum_norm[16]) {
 			else if ((sum_arr[i] == 15) || (sum_arr[i] == 16)) { sum_norm[i] = 9; }
 			else if ((sum_arr[i] == 17) || (sum_arr[i] == 18) || (sum_arr[i] == 19) || (sum_arr[i] == 20)) { sum_norm[i] = 10; }
 		}
-		// ôàêòîð M
+		// Ñ„Ð°ÐºÑ‚Ð¾Ñ€ M
 		if (i == 9) {
 			if ((sum_arr[i] == 0) || (sum_arr[i] == 1) || (sum_arr[i] == 2) || (sum_arr[i] == 3)
 				|| (sum_arr[i] == 4)) {sum_norm[i] = 1;}
@@ -149,7 +149,7 @@ void w_46_55(int sum_arr[16], int sum_norm[16]) {
 				(sum_arr[i] == 22) || (sum_arr[i] == 23) || (sum_arr[i] == 24)
 				|| (sum_arr[i] == 25) || (sum_arr[i] == 26)) {sum_norm[i] = 10;}
 		}
-		// ôàêòîð N
+		// Ñ„Ð°ÐºÑ‚Ð¾Ñ€ N
 		if (i == 10) {
 			if ((sum_arr[i] == 0) || (sum_arr[i] == 1) || (sum_arr[i] == 2) || (sum_arr[i] == 3)
 				|| (sum_arr[i] == 4) || (sum_arr[i] == 5) || (sum_arr[i] == 6)) {sum_norm[i] = 1;}
@@ -163,7 +163,7 @@ void w_46_55(int sum_arr[16], int sum_norm[16]) {
 			else if (sum_arr[i] == 17) { sum_norm[i] = 9; }
 			else if ((sum_arr[i] == 18) || (sum_arr[i] == 19) || (sum_arr[i] == 20)) { sum_norm[i] = 10; }
 		}
-		// ôàêòîð O
+		// Ñ„Ð°ÐºÑ‚Ð¾Ñ€ O
 		if (i == 11) {
 			if ((sum_arr[i] == 0) || (sum_arr[i] == 1) || (sum_arr[i] == 2) || (sum_arr[i] == 3)
 				|| (sum_arr[i] == 4)) {sum_norm[i] = 1;}
@@ -180,7 +180,7 @@ void w_46_55(int sum_arr[16], int sum_norm[16]) {
 				sum_norm[i] = 10;
 			}
 		}
-		// ôàêòîð Q1
+		// Ñ„Ð°ÐºÑ‚Ð¾Ñ€ Q1
 		if (i == 12) {
 			if ((sum_arr[i] == 0) || (sum_arr[i] == 1)) { sum_norm[i] = 1; }
 			else if (sum_arr[i] == 2) { sum_norm[i] = 2; }
@@ -194,7 +194,7 @@ void w_46_55(int sum_arr[16], int sum_norm[16]) {
 			else if ((sum_arr[i] == 13) || (sum_arr[i] == 14) || (sum_arr[i] == 15) || (sum_arr[i] == 16) || (sum_arr[i] == 17) 
 				|| (sum_arr[i] == 18)|| (sum_arr[i] == 19) || (sum_arr[i] == 20)) {sum_norm[i] = 10;}
 		}
-		// ôàêòîð Q2
+		// Ñ„Ð°ÐºÑ‚Ð¾Ñ€ Q2
 		if (i == 13) {
 			if ((sum_arr[i] == 0) || (sum_arr[i] == 1) || (sum_arr[i] == 2) || (sum_arr[i] == 3)
 				|| (sum_arr[i] == 4) || (sum_arr[i] == 5)) {sum_norm[i] = 1;}
@@ -208,7 +208,7 @@ void w_46_55(int sum_arr[16], int sum_norm[16]) {
 			else if (sum_arr[i] == 17) { sum_norm[i] = 9; }
 			else if ((sum_arr[i] == 18) || (sum_arr[i] == 19) || (sum_arr[i] == 20)) { sum_norm[i] = 10; }
 		}
-		// ôàêòîð Q3
+		// Ñ„Ð°ÐºÑ‚Ð¾Ñ€ Q3
 		if (i == 14) {
 			if ((sum_arr[i] == 0) || (sum_arr[i] == 1) || (sum_arr[i] == 2) || (sum_arr[i] == 3)
 				|| (sum_arr[i] == 4) || (sum_arr[i] == 5) || (sum_arr[i] == 6)) {sum_norm[i] = 1;}
@@ -222,7 +222,7 @@ void w_46_55(int sum_arr[16], int sum_norm[16]) {
 			else if (sum_arr[i] == 18) { sum_norm[i] = 9; }
 			else if ((sum_arr[i] == 19) || (sum_arr[i] == 20)) { sum_norm[i] = 10; }
 		}
-		// ôàêòîð Q4
+		// Ñ„Ð°ÐºÑ‚Ð¾Ñ€ Q4
 		if (i == 15) {
 			if ((sum_arr[i] == 0) || (sum_arr[i] == 1) || (sum_arr[i] == 2) || (sum_arr[i] == 3)
 				|| (sum_arr[i] == 4) || (sum_arr[i] == 5)) {sum_norm[i] = 1;}

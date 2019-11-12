@@ -13,7 +13,7 @@ void cattel_time(double array_start[187], double array_end[187], char(&dd3)[110]
 
 	ofstream out(dd3, ios_base::app);
 
-	out << "¹ òàáëèöû" << "     Âğåìÿ     " << endl;
+	out << "â„– Ñ‚Ğ°Ğ±Ğ»Ğ¸Ñ†Ñ‹" << "     Ğ’Ñ€ĞµĞ¼Ñ     " << endl;
 	out <<  "vopros" << 1 << " :     " << (array_end[0] - array_start[0]) << endl;
 		
 		for (int i = 1; i < 187; i++)
@@ -27,6 +27,6 @@ void cattel_time(double array_start[187], double array_end[187], char(&dd3)[110]
 			s += sum[i];
 		}
 
-		out << "Îáùåå âğåìÿ: " << s << endl;
+		out << "ĞĞ±Ñ‰ĞµĞµ Ğ²Ñ€ĞµĞ¼Ñ: " << s << endl;
 
 }

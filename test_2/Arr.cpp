@@ -3,7 +3,7 @@ int array_2[187];
 int array_3[187];
 double array_start[187];
 double array_end[187];
-char dd1[110]; //название файла cattel
-char dd2[110]; //название файла cattel_all
-char dd3[110]; //название файла cattel_time
-char dd4[110]; //название файла cattel_chart
+char dd1[110]; //РЅР°Р·РІР°РЅРёРµ С„Р°Р№Р»Р° cattel
+char dd2[110]; //РЅР°Р·РІР°РЅРёРµ С„Р°Р№Р»Р° cattel_all
+char dd3[110]; //РЅР°Р·РІР°РЅРёРµ С„Р°Р№Р»Р° cattel_time
+char dd4[110]; //РЅР°Р·РІР°РЅРёРµ С„Р°Р№Р»Р° cattel_chart
